@@ -1,0 +1,1553 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/immutable/chunks/2wlnm976tq4ae.js"
+  ],
+  "/404": [
+    "static/immutable/chunks/0a5vujackxzx5.js"
+  ],
+  "/500": [
+    "static/immutable/chunks/03dgu-yxht5nb.js"
+  ],
+  "/__challenge": [
+    "static/immutable/chunks/0hz9cxgwp8h1-.js"
+  ],
+  "/_app.sites": [
+    "static/immutable/chunks/2c4nsbnf-m9rw.js"
+  ],
+  "/_error": [
+    "static/immutable/chunks/15ocvdqp-81ob.js"
+  ],
+  "/_offline": [
+    "static/immutable/chunks/33mv1ixv1vusp.js"
+  ],
+  "/add-password": [
+    "static/immutable/chunks/2f5k23_k4n2y5.js"
+  ],
+  "/admin/ai-images": [
+    "static/immutable/chunks/098j35gvq1709.js"
+  ],
+  "/admin/ai-images/evals": [
+    "static/immutable/chunks/26zgd9t1pugpw.js"
+  ],
+  "/admin/ai-images/evals/[id]": [
+    "static/immutable/chunks/2ogd01p1nh5qb.js"
+  ],
+  "/admin/ai-images/evals/new": [
+    "static/immutable/chunks/1lzr449_0xc4j.js"
+  ],
+  "/admin/ai-images/trials": [
+    "static/immutable/chunks/1608etq151prg.js"
+  ],
+  "/admin/ai-images/trials/[id]": [
+    "static/immutable/chunks/0m6v1lat7oho7.js"
+  ],
+  "/admin/ai-images/trials/new": [
+    "static/immutable/chunks/0g3ume2p_zp3j.js"
+  ],
+  "/admin/gml-sandbox": [
+    "static/immutable/chunks/0nvdwurjbjk1d.js"
+  ],
+  "/admin/render-generation": [
+    "static/immutable/chunks/0g-qmrb1jsd6-.js"
+  ],
+  "/admin/template-library": [
+    "static/immutable/chunks/274_hwe58ga81.js"
+  ],
+  "/admin/template-library/screenshots": [
+    "static/immutable/chunks/41jt_tldq2_pj.js"
+  ],
+  "/agents": [
+    "static/immutable/chunks/01nf4a76uzay3.js"
+  ],
+  "/aurora": [
+    "static/immutable/chunks/1vr-kwog_u27u.js"
+  ],
+  "/aurora/[docId]": [
+    "static/immutable/chunks/0penk3nge3gil.js"
+  ],
+  "/aurora/generate": [
+    "static/immutable/chunks/0c0ahqu-4889i.js"
+  ],
+  "/auth-success": [
+    "static/immutable/chunks/2gj9wt0-dj_0j.js"
+  ],
+  "/auth/done": [
+    "static/immutable/chunks/17gcszs5ntg8u.js"
+  ],
+  "/auth/error": [
+    "static/immutable/chunks/2lfff7__2b75a.js"
+  ],
+  "/auth/workspace-redirect": [
+    "static/immutable/chunks/11wu5ilx2haej.js"
+  ],
+  "/browser-activity/gml-render": [
+    "static/immutable/chunks/3qg3l_dr5zsbk.js"
+  ],
+  "/browser-activity/html": [
+    "static/immutable/chunks/42jmb40fl5r6n.js"
+  ],
+  "/browser-activity/render-html": [
+    "static/immutable/chunks/2plkyqzurtclv.js"
+  ],
+  "/checkout/error": [
+    "static/immutable/chunks/0nnn7rodj6-qp.js"
+  ],
+  "/checkout/success": [
+    "static/immutable/chunks/2yfm5vbmwxrfe.js"
+  ],
+  "/confirm-email-change": [
+    "static/immutable/chunks/1wh9km7_m90ca.js"
+  ],
+  "/contact-sales": [
+    "static/immutable/chunks/03nnkgs9ptxd2.js"
+  ],
+  "/create": [
+    "static/immutable/chunks/2j84yz_p1r73r.js"
+  ],
+  "/create/from-template": [
+    "static/immutable/chunks/37_oteheyzl96.js"
+  ],
+  "/create/generate": [
+    "static/immutable/chunks/0ioovcgm7h0_u.js"
+  ],
+  "/create/generate-v3": [
+    "static/immutable/chunks/41-2os5mzl51l.js"
+  ],
+  "/create/generate/[id]": [
+    "static/immutable/chunks/3ufo-a-shmbmj.js"
+  ],
+  "/create/import": [
+    "static/immutable/chunks/2r18w-3j-5uy3.js"
+  ],
+  "/create/import-ppt/[id]": [
+    "static/immutable/chunks/3798ojjh2zqmp.js"
+  ],
+  "/create/paste": [
+    "static/immutable/chunks/21dg01pszbz22.js"
+  ],
+  "/create/studio": [
+    "static/immutable/chunks/1wyvr9bltty75.js"
+  ],
+  "/create/studio/[id]": [
+    "static/immutable/chunks/2yg3zzo4347-5.js"
+  ],
+  "/demo/[docId]": [
+    "static/immutable/chunks/0ciansbkzqveo.js"
+  ],
+  "/design/[sessionId]": [
+    "static/immutable/chunks/0t6q5ofz41-mb.js"
+  ],
+  "/docs-robot/[docId]": [
+    "static/immutable/chunks/2x6d8oombng3z.js"
+  ],
+  "/docs/[docId]": [
+    "static/immutable/chunks/0ysglhon2y9be.js"
+  ],
+  "/docs/[docId]/brand-eval": [
+    "static/immutable/chunks/114289rjwv81c.js"
+  ],
+  "/docs/[docId]/snapshots": [
+    "static/immutable/chunks/13bbuedsmnn6i.js"
+  ],
+  "/docs/doc-viewer": [
+    "static/immutable/chunks/0mzrxle0tqx26.js"
+  ],
+  "/docs/presenter/[docId]": [
+    "static/immutable/chunks/1gii22_59uzss.js"
+  ],
+  "/docs/screenshot": [
+    "static/immutable/chunks/37hgjym_mwkbf.js"
+  ],
+  "/embed/[docId]": [
+    "static/immutable/chunks/0qect5c2a0prg.js"
+  ],
+  "/example/[docId]": [
+    "static/immutable/chunks/1aeailqey7i_h.js"
+  ],
+  "/external-link": [
+    "static/immutable/chunks/01eckcdt1u525.js"
+  ],
+  "/feedback": [
+    "static/immutable/chunks/3qklo56o7-0cg.js"
+  ],
+  "/forgot": [
+    "static/immutable/chunks/3hs4p5ueghhbc.js"
+  ],
+  "/generate-v3/[id]": [
+    "static/immutable/chunks/1blohzr110thi.js"
+  ],
+  "/generate/[id]": [
+    "static/immutable/chunks/0_py6_oxxajpd.js"
+  ],
+  "/generations-robot/[generationId]": [
+    "static/immutable/chunks/0zy199fhuijuu.js"
+  ],
+  "/generations/[generationId]": [
+    "static/immutable/chunks/2ads-srynfjcn.js"
+  ],
+  "/invitations/docs/[docId]": [
+    "static/immutable/chunks/0hbnakl45wkwu.js"
+  ],
+  "/invitations/workspaces/[workspaceId]": [
+    "static/immutable/chunks/268x88kvjkst4.js"
+  ],
+  "/login-as": [
+    "static/immutable/chunks/2x-hu813fa53u.js"
+  ],
+  "/marketing/[locale]": [
+    "static/immutable/chunks/1iw1a4te-aieq.js"
+  ],
+  "/marketing/[locale]/formats-first": [
+    "static/immutable/chunks/24g81_a7z71b5.js"
+  ],
+  "/marketing/[locale]/pricing": [
+    "static/immutable/chunks/318zzunnl76j3.js"
+  ],
+  "/marketing/[locale]/pricing/teams": [
+    "static/immutable/chunks/1v4pv6ugmlic-.js"
+  ],
+  "/marketing/acceptable-use-policy": [
+    "static/immutable/chunks/18w8yslm_rth-.js"
+  ],
+  "/marketing/cookie-notice": [
+    "static/immutable/chunks/02npo8uhy4m_k.js"
+  ],
+  "/marketing/dpa": [
+    "static/immutable/chunks/0weujjem8zq6t.js"
+  ],
+  "/marketing/legal": [
+    "static/immutable/chunks/24emp1un3j6zy.js"
+  ],
+  "/marketing/privacy": [
+    "static/immutable/chunks/0-wuq15bfra1p.js"
+  ],
+  "/marketing/privacy-08092024": [
+    "static/immutable/chunks/0r8gi3cqr7tuk.js"
+  ],
+  "/marketing/subprocessors": [
+    "static/immutable/chunks/1t2n42-ji-lfd.js"
+  ],
+  "/marketing/terms": [
+    "static/immutable/chunks/1ai20nshlb2-k.js"
+  ],
+  "/marketing/terms/archive": [
+    "static/immutable/chunks/2ty1zftck-dg5.js"
+  ],
+  "/marketing/terms/terms-3-24-2023": [
+    "static/immutable/chunks/35-fq3cp_5a-0.js"
+  ],
+  "/marketing/third-party-terms": [
+    "static/immutable/chunks/0o75-bsbmclja.js"
+  ],
+  "/mcp/analytics": [
+    "static/immutable/chunks/2aoi-4qy-x7uh.js"
+  ],
+  "/mcp/export": [
+    "static/immutable/chunks/34dtsuf61wjrk.js"
+  ],
+  "/mcp/generate": [
+    "static/immutable/chunks/1ldzw7pqim4y_.js"
+  ],
+  "/mcp/generate-image": [
+    "static/immutable/chunks/1o8prwb1658ox.js"
+  ],
+  "/mcp/panel": [
+    "static/immutable/chunks/3wl0tsumf5ok5.js"
+  ],
+  "/media/images/[[...mediaId]]": [
+    "static/immutable/chunks/2-s84gj1djayj.js"
+  ],
+  "/new": [
+    "static/immutable/chunks/3sx6pnjxe5723.js"
+  ],
+  "/oauth/consent": [
+    "static/immutable/chunks/0fdf0pgsfisxn.js"
+  ],
+  "/oauth/error": [
+    "static/immutable/chunks/0c4acbzlv6eb2.js"
+  ],
+  "/ppt-import-debug": [
+    "static/immutable/chunks/3a9h2u6w8u1zl.js"
+  ],
+  "/published/[docId]": [
+    "static/immutable/chunks/3qevqo4z9vsod.js"
+  ],
+  "/published_mobile/[docId]": [
+    "static/immutable/chunks/17006q_rx4th3.js"
+  ],
+  "/reauthenticate": [
+    "static/immutable/chunks/26kljc97_6d7s.js"
+  ],
+  "/remix/[id]": [
+    "static/immutable/chunks/0i4amekci4df4.js"
+  ],
+  "/remix/from/[id]": [
+    "static/immutable/chunks/1t4fwmix14cl8.js"
+  ],
+  "/reset": [
+    "static/immutable/chunks/09qy80bj6ggzc.js"
+  ],
+  "/sandbox/[pageName]": [
+    "static/immutable/chunks/2zg1lfhsc8zj2.js"
+  ],
+  "/sandbox/activities/debugger": [
+    "static/immutable/chunks/1qh2orv_c7gav.js"
+  ],
+  "/sandbox/activities/editing-phrases": [
+    "static/immutable/chunks/2lqfruk528odr.js"
+  ],
+  "/sandbox/aurora/editor": [
+    "static/immutable/chunks/0k5ov92ttaopu.js"
+  ],
+  "/sandbox/canvas-interactions": [
+    "static/immutable/chunks/29-g1udr-03-c.js"
+  ],
+  "/sandbox/canvas-interactions/[fixtureId]": [
+    "static/immutable/chunks/3_so1pye9h1j5.js"
+  ],
+  "/sandbox/gml-preview": [
+    "static/immutable/chunks/2jfp9ryk90sp7.js"
+  ],
+  "/sandbox/grid-interactions/[fixtureId]": [
+    "static/immutable/chunks/2olq8w-ouzuib.js"
+  ],
+  "/sandbox/recreate-lab": [
+    "static/immutable/chunks/3vlv5wv0vxg0_.js"
+  ],
+  "/settings": [
+    "static/immutable/chunks/2d02sjhkbbcgi.js"
+  ],
+  "/setup": [
+    "static/immutable/chunks/0teuao38tf2qd.js"
+  ],
+  "/signin": [
+    "static/immutable/chunks/1hejghzo0d2pt.js"
+  ],
+  "/signup": [
+    "static/immutable/chunks/2ux7r_2qagho-.js"
+  ],
+  "/social/[platform]/oauth-success": [
+    "static/immutable/chunks/0ga3cny25j-mm.js"
+  ],
+  "/sso": [
+    "static/immutable/chunks/22whis-ychaad.js"
+  ],
+  "/sso/error": [
+    "static/immutable/chunks/0kqlbyy1t8_8e.js"
+  ],
+  "/themes/share/[themeId]": [
+    "static/immutable/chunks/1bkg_uy10i_2m.js"
+  ],
+  "/tldraw": [
+    "static/immutable/chunks/3pjm20gbcwomf.js"
+  ],
+  "/tldraw2": [
+    "static/immutable/chunks/3fliwz9f__6jo.js"
+  ],
+  "/user-deleted": [
+    "static/immutable/chunks/2mtvcx7q6srcg.js"
+  ],
+  "/workspaces/[orgId]/join": [
+    "static/immutable/chunks/3ez1r0va7zl7z.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/templates/([\\w-]*-|):id(\\w+)",
+        "destination": "/templates/:id"
+      },
+      {
+        "source": "/folders/:channelSlug*",
+        "destination": "/"
+      },
+      {
+        "source": "/settings/(members|sharing|design|sso|audit-logs|unowned-folders|ownerless-files|public-links|content-center|my-connectors|api-keys|billing)",
+        "destination": "/settings"
+      },
+      {
+        "source": "/sites/:siteId/pages/:pageId/preview",
+        "destination": "/sites/:siteId/pages/:pageId"
+      },
+      {
+        "source": "/docs/:docId/preview",
+        "destination": "/docs/:docId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "user-agent",
+            "value": "(.*)(Googlebot\\/|Googlebot-Mobile|Googlebot-Image|Googlebot-News|Googlebot-Video|AdsBot-Google([^-]|$)|AdsBot-Google-Mobile|Feedfetcher-Google|Mediapartners-Google|Mediapartners \\(Googlebot\\)|APIs-Google|Google-InspectionTool|Storebot-Google|GoogleOther|bingbot|Slurp|LinkedInBot|msnbot|Adidxbot|facebookexternalhit|DuckDuckBot|Twitterbot|Facebot|BUbiNG|Applebot|Y!J|Slack-ImgProxy|SkypeUriPreview|Slackbot|Google-Adwords-Instant|WhatsApp|BingPreview\\/|Yahoo Link Preview|AppInsights|Discordbot|DuckDuckGo-Favicons-Bot|AppEngine-Google|Google Web Preview|google-xrawler|Google-Structured-Data-Testing-Tool|Google-PhysicalWeb|Google Favicon|Chrome-Lighthouse|HeadlessChrome|Google-Site-Verification|SentiBot|Google-Certificates-Bridge|Google-Read-Aloud|Google-Safety|Iframely|developers\\.google\\.com\\/\\+\\/web\\/snippet|facebookcatalog\\/|meta-externalagent\\/|meta-externalfetcher\\/|MicrosoftPreview\\/|Iframely|Bluesky Cardyb|atlassian-bot|Notion\\/|[wW]get|Python-urllib|python-requests|aiohttp|httpx|libwww-perl|httpunit|Nutch|Go-http-client|phpcrawl|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|BIGLOTRON|Teoma|convera|seekbot|Gigabot|Gigablast|exabot|ia_archiver|GingerCrawler|webmon |HTTrack|grub\\.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|findlink|msrbot|panscient|yacybot|AISearchBot|ips-agent|tagoobot|MJ12bot|woriobot|yanga|buzzbot|mlbot|yandex\\.com\\/bots|purebot|Linguee Bot|CyberPatrol|voilabot|Baiduspider|citeseerxbot|spbot|twengabot|postrank|Turnitin|scribdbot|page2rss|sitebot|linkdex|ezooms|dotbot|Mail\\.RU_Bot|discobot|heritrix|findthatfile|europarchive\\.org|NerdByNature\\.Bot|(sistrix|SISTRIX) [cC]rawler|Ahrefs(Bot|SiteAudit)|fuelbot|CrunchBot|IndeedBot|mappydata|woobot|ZoominfoBot|PrivacyAwareBot|Multiviewbot|SWIMGBot|Grobbot|eright|Apercite|semanticbot|Aboundex|domaincrawler|wbsearchbot|summify|CCBot|edisterbot|SeznamBot|ec2linkfinder|gslfbot|aiHitBot|intelium_bot)(.*)"
+          }
+        ],
+        "source": "/(docs|example|public)/:slug",
+        "destination": "/docs-robot/:slug"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "user-agent",
+            "value": "(.*)(Googlebot\\/|Googlebot-Mobile|Googlebot-Image|Googlebot-News|Googlebot-Video|AdsBot-Google([^-]|$)|AdsBot-Google-Mobile|Feedfetcher-Google|Mediapartners-Google|Mediapartners \\(Googlebot\\)|APIs-Google|Google-InspectionTool|Storebot-Google|GoogleOther|bingbot|Slurp|LinkedInBot|msnbot|Adidxbot|facebookexternalhit|DuckDuckBot|Twitterbot|Facebot|BUbiNG|Applebot|Y!J|Slack-ImgProxy|SkypeUriPreview|Slackbot|Google-Adwords-Instant|WhatsApp|BingPreview\\/|Yahoo Link Preview|AppInsights|Discordbot|DuckDuckGo-Favicons-Bot|AppEngine-Google|Google Web Preview|google-xrawler|Google-Structured-Data-Testing-Tool|Google-PhysicalWeb|Google Favicon|Chrome-Lighthouse|HeadlessChrome|Google-Site-Verification|SentiBot|Google-Certificates-Bridge|Google-Read-Aloud|Google-Safety|Iframely|developers\\.google\\.com\\/\\+\\/web\\/snippet|facebookcatalog\\/|meta-externalagent\\/|meta-externalfetcher\\/|MicrosoftPreview\\/|Iframely|Bluesky Cardyb|atlassian-bot|Notion\\/|[wW]get|Python-urllib|python-requests|aiohttp|httpx|libwww-perl|httpunit|Nutch|Go-http-client|phpcrawl|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|BIGLOTRON|Teoma|convera|seekbot|Gigabot|Gigablast|exabot|ia_archiver|GingerCrawler|webmon |HTTrack|grub\\.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|findlink|msrbot|panscient|yacybot|AISearchBot|ips-agent|tagoobot|MJ12bot|woriobot|yanga|buzzbot|mlbot|yandex\\.com\\/bots|purebot|Linguee Bot|CyberPatrol|voilabot|Baiduspider|citeseerxbot|spbot|twengabot|postrank|Turnitin|scribdbot|page2rss|sitebot|linkdex|ezooms|dotbot|Mail\\.RU_Bot|discobot|heritrix|findthatfile|europarchive\\.org|NerdByNature\\.Bot|(sistrix|SISTRIX) [cC]rawler|Ahrefs(Bot|SiteAudit)|fuelbot|CrunchBot|IndeedBot|mappydata|woobot|ZoominfoBot|PrivacyAwareBot|Multiviewbot|SWIMGBot|Grobbot|eright|Apercite|semanticbot|Aboundex|domaincrawler|wbsearchbot|summify|CCBot|edisterbot|SeznamBot|ec2linkfinder|gslfbot|aiHitBot|intelium_bot)(.*)"
+          }
+        ],
+        "source": "/generations/:generationId",
+        "destination": "/generations-robot/:generationId"
+      },
+      {
+        "source": "/acceptable-use-policy",
+        "destination": "/marketing/acceptable-use-policy"
+      },
+      {
+        "source": "/cookie-notice",
+        "destination": "/marketing/cookie-notice"
+      },
+      {
+        "source": "/dpa",
+        "destination": "/marketing/dpa"
+      },
+      {
+        "source": "/legal",
+        "destination": "/marketing/legal"
+      },
+      {
+        "source": "/privacy",
+        "destination": "/marketing/privacy"
+      },
+      {
+        "source": "/privacy-08092024",
+        "destination": "/marketing/privacy-08092024"
+      },
+      {
+        "source": "/terms",
+        "destination": "/marketing/terms"
+      },
+      {
+        "source": "/terms/archive",
+        "destination": "/marketing/terms/archive"
+      },
+      {
+        "source": "/terms/3-24-2023",
+        "destination": "/marketing/terms/terms-3-24-2023"
+      },
+      {
+        "source": "/subprocessors",
+        "destination": "/marketing/subprocessors"
+      },
+      {
+        "source": "/third-party-terms",
+        "destination": "/marketing/third-party-terms"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/en/pricing/:path*",
+        "destination": "/marketing/en/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ar/pricing/:path*",
+        "destination": "/marketing/ar/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/bg/pricing/:path*",
+        "destination": "/marketing/bg/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/bs/pricing/:path*",
+        "destination": "/marketing/bs/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/cs/pricing/:path*",
+        "destination": "/marketing/cs/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/da/pricing/:path*",
+        "destination": "/marketing/da/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/de/pricing/:path*",
+        "destination": "/marketing/de/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/el/pricing/:path*",
+        "destination": "/marketing/el/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/es/pricing/:path*",
+        "destination": "/marketing/es/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/et/pricing/:path*",
+        "destination": "/marketing/et/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/fa/pricing/:path*",
+        "destination": "/marketing/fa/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/fi/pricing/:path*",
+        "destination": "/marketing/fi/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/fr/pricing/:path*",
+        "destination": "/marketing/fr/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/he/pricing/:path*",
+        "destination": "/marketing/he/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/hi/pricing/:path*",
+        "destination": "/marketing/hi/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/hr/pricing/:path*",
+        "destination": "/marketing/hr/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/hu/pricing/:path*",
+        "destination": "/marketing/hu/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/id/pricing/:path*",
+        "destination": "/marketing/id/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/it/pricing/:path*",
+        "destination": "/marketing/it/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ja/pricing/:path*",
+        "destination": "/marketing/ja/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/kn/pricing/:path*",
+        "destination": "/marketing/kn/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ko/pricing/:path*",
+        "destination": "/marketing/ko/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/lt/pricing/:path*",
+        "destination": "/marketing/lt/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/lv/pricing/:path*",
+        "destination": "/marketing/lv/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/nl/pricing/:path*",
+        "destination": "/marketing/nl/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/no/pricing/:path*",
+        "destination": "/marketing/no/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/pl/pricing/:path*",
+        "destination": "/marketing/pl/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/pt-br/pricing/:path*",
+        "destination": "/marketing/pt-br/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ro/pricing/:path*",
+        "destination": "/marketing/ro/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ru/pricing/:path*",
+        "destination": "/marketing/ru/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sl/pricing/:path*",
+        "destination": "/marketing/sl/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sq/pricing/:path*",
+        "destination": "/marketing/sq/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sr/pricing/:path*",
+        "destination": "/marketing/sr/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sv/pricing/:path*",
+        "destination": "/marketing/sv/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/th/pricing/:path*",
+        "destination": "/marketing/th/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/tl/pricing/:path*",
+        "destination": "/marketing/tl/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/tr/pricing/:path*",
+        "destination": "/marketing/tr/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ur/pricing/:path*",
+        "destination": "/marketing/ur/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/uk/pricing/:path*",
+        "destination": "/marketing/uk/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/uz/pricing/:path*",
+        "destination": "/marketing/uz/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/vi/pricing/:path*",
+        "destination": "/marketing/vi/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/zh-cn/pricing/:path*",
+        "destination": "/marketing/zh-cn/pricing/:path*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/zh-tw/pricing/:path*",
+        "destination": "/marketing/zh-tw/pricing/:path*"
+      },
+      {
+        "source": "/announcements/customer-advisory-board",
+        "destination": "/docs/u3sq95ne8livoyf"
+      },
+      {
+        "source": "/en/announcements/customer-advisory-board",
+        "destination": "/docs/u3sq95ne8livoyf"
+      },
+      {
+        "source": "/en/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/es/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/ja/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/ko/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/fr/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/pt-br/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/zh-cn/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/zh-tw/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/de/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/ar/announcements/gamma-3.0",
+        "destination": "/example/gamma-3.0"
+      },
+      {
+        "source": "/en/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/es/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/ja/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/ko/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/fr/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/pt-br/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/zh-cn/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/zh-tw/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/de/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "source": "/ar/announcements/:slug*",
+        "destination": "/docs/:slug*"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/en",
+        "destination": "/marketing/en"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ar",
+        "destination": "/marketing/ar"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/bg",
+        "destination": "/marketing/bg"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/bs",
+        "destination": "/marketing/bs"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/cs",
+        "destination": "/marketing/cs"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/da",
+        "destination": "/marketing/da"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/de",
+        "destination": "/marketing/de"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/el",
+        "destination": "/marketing/el"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/es",
+        "destination": "/marketing/es"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/et",
+        "destination": "/marketing/et"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/fa",
+        "destination": "/marketing/fa"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/fi",
+        "destination": "/marketing/fi"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/fr",
+        "destination": "/marketing/fr"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/he",
+        "destination": "/marketing/he"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/hi",
+        "destination": "/marketing/hi"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/hr",
+        "destination": "/marketing/hr"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/hu",
+        "destination": "/marketing/hu"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/id",
+        "destination": "/marketing/id"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/it",
+        "destination": "/marketing/it"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ja",
+        "destination": "/marketing/ja"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/kn",
+        "destination": "/marketing/kn"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ko",
+        "destination": "/marketing/ko"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/lt",
+        "destination": "/marketing/lt"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/lv",
+        "destination": "/marketing/lv"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/nl",
+        "destination": "/marketing/nl"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/no",
+        "destination": "/marketing/no"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/pl",
+        "destination": "/marketing/pl"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/pt-br",
+        "destination": "/marketing/pt-br"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ro",
+        "destination": "/marketing/ro"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ru",
+        "destination": "/marketing/ru"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sl",
+        "destination": "/marketing/sl"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sq",
+        "destination": "/marketing/sq"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sr",
+        "destination": "/marketing/sr"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/sv",
+        "destination": "/marketing/sv"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/th",
+        "destination": "/marketing/th"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/tl",
+        "destination": "/marketing/tl"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/tr",
+        "destination": "/marketing/tr"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/ur",
+        "destination": "/marketing/ur"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/uk",
+        "destination": "/marketing/uk"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/uz",
+        "destination": "/marketing/uz"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/vi",
+        "destination": "/marketing/vi"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/zh-cn",
+        "destination": "/marketing/zh-cn"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/zh-tw",
+        "destination": "/marketing/zh-tw"
+      },
+      {
+        "has": [
+          {
+            "type": "host",
+            "value": "(gamma.app|[a-zA-Z0-9-]*-gamma-app.vercel.app|production-vercel-app.gamma.app)"
+          }
+        ],
+        "source": "/pricing/:path*",
+        "destination": "/marketing/en/pricing/:path*"
+      },
+      {
+        "source": "/:path*.map",
+        "destination": "/404"
+      }
+    ],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/404",
+    "/500",
+    "/__challenge",
+    "/_app",
+    "/_app.sites",
+    "/_error",
+    "/_offline",
+    "/add-password",
+    "/admin/ai-images",
+    "/admin/ai-images/evals",
+    "/admin/ai-images/evals/new",
+    "/admin/ai-images/evals/[id]",
+    "/admin/ai-images/trials",
+    "/admin/ai-images/trials/new",
+    "/admin/ai-images/trials/[id]",
+    "/admin/gml-sandbox",
+    "/admin/render-generation",
+    "/admin/template-library",
+    "/admin/template-library/screenshots",
+    "/agents",
+    "/api/aurora/fetch-deck",
+    "/api/aurora/generate-deck",
+    "/api/aurora/html-flatten",
+    "/api/aurora/list-styles",
+    "/api/aurora/search-styles",
+    "/api/browser-activities",
+    "/api/browser-scripts/[scriptId]",
+    "/api/card-json",
+    "/api/comment-content",
+    "/api/dev/pointer-trace",
+    "/api/disable-draft-mode",
+    "/api/doc-ai-html",
+    "/api/doc-json/[docId]",
+    "/api/domains/connectToken",
+    "/api/domains/validateTLD",
+    "/api/enable-draft-mode",
+    "/api/error",
+    "/api/healthcheck",
+    "/api/icons/search",
+    "/api/icons/[slug]",
+    "/api/revalidate",
+    "/api/revalidate-announcement",
+    "/api/schema",
+    "/api/theme-preview/[id]/[hash]",
+    "/api/transloadit/signature",
+    "/api/version",
+    "/aurora",
+    "/aurora/generate",
+    "/aurora/[docId]",
+    "/auth/done",
+    "/auth/error",
+    "/auth/workspace-redirect",
+    "/auth-success",
+    "/browser-activity/gml-render",
+    "/browser-activity/html",
+    "/browser-activity/render-html",
+    "/checkout/error",
+    "/checkout/success",
+    "/confirm-email-change",
+    "/contact-sales",
+    "/create",
+    "/create/from-template",
+    "/create/generate",
+    "/create/generate/[id]",
+    "/create/generate-v3",
+    "/create/import",
+    "/create/import-ppt/[id]",
+    "/create/paste",
+    "/create/studio",
+    "/create/studio/[id]",
+    "/demo/[docId]",
+    "/design/[sessionId]",
+    "/docs/doc-viewer",
+    "/docs/presenter/[docId]",
+    "/docs/screenshot",
+    "/docs/[docId]",
+    "/docs/[docId]/brand-eval",
+    "/docs/[docId]/snapshots",
+    "/docs-robot/[docId]",
+    "/embed/[docId]",
+    "/example/[docId]",
+    "/external-link",
+    "/feedback",
+    "/forgot",
+    "/generate/[id]",
+    "/generate-v3/[id]",
+    "/generations/[generationId]",
+    "/generations-robot/[generationId]",
+    "/invitations/docs/[docId]",
+    "/invitations/workspaces/[workspaceId]",
+    "/login-as",
+    "/marketing/acceptable-use-policy",
+    "/marketing/cookie-notice",
+    "/marketing/dpa",
+    "/marketing/legal",
+    "/marketing/privacy",
+    "/marketing/privacy-08092024",
+    "/marketing/subprocessors",
+    "/marketing/terms",
+    "/marketing/terms/archive",
+    "/marketing/terms/terms-3-24-2023",
+    "/marketing/third-party-terms",
+    "/marketing/[locale]",
+    "/marketing/[locale]/formats-first",
+    "/marketing/[locale]/pricing",
+    "/marketing/[locale]/pricing/teams",
+    "/mcp/analytics",
+    "/mcp/export",
+    "/mcp/generate",
+    "/mcp/generate-image",
+    "/mcp/panel",
+    "/media/images/[[...mediaId]]",
+    "/new",
+    "/oauth/consent",
+    "/oauth/error",
+    "/ppt-import-debug",
+    "/published/[docId]",
+    "/published_mobile/[docId]",
+    "/reauthenticate",
+    "/remix/from/[id]",
+    "/remix/[id]",
+    "/reset",
+    "/sandbox/activities/debugger",
+    "/sandbox/activities/editing-phrases",
+    "/sandbox/aurora/editor",
+    "/sandbox/canvas-interactions",
+    "/sandbox/canvas-interactions/[fixtureId]",
+    "/sandbox/gml-preview",
+    "/sandbox/grid-interactions/[fixtureId]",
+    "/sandbox/recreate-lab",
+    "/sandbox/[pageName]",
+    "/settings",
+    "/setup",
+    "/signin",
+    "/signup",
+    "/social/[platform]/oauth-success",
+    "/sso",
+    "/sso/error",
+    "/themes/share/[themeId]",
+    "/tldraw",
+    "/tldraw2",
+    "/user-deleted",
+    "/workspaces/[orgId]/join"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -1,0 +1,1342 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="4799730c-1ac6-2d03-63da-b48e2b186738")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,299166,e=>{"use strict";var i=e.i(391398);e.s(["f",0,()=>(0,i.jsxs)("svg",{width:"100%",height:"100%",fill:"none",xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 40 40",children:[(0,i.jsx)("g",{clipPath:"url(#a)",fill:"currentColor",children:(0,i.jsx)("path",{d:"M12.277 4.575a14.16 14.16 0 0 0-4.297 5.769c-.93 2.281-1.195 4.683-.809 7.145a13.256 13.256 0 0 0 2.97 6.542 14.11 14.11 0 0 0 5.866 4.165c2.317.88 4.791 1.122 7.338.712l10.308-1.63-2.631-16.62-11.962 1.895.918 5.77 5.636-.894.749 4.695-3.79.604a7.214 7.214 0 0 1-3.887-.423 7.673 7.673 0 0 1-3.126-2.293 7.383 7.383 0 0 1-1.581-3.585 7.492 7.492 0 0 1 .398-3.898 7.744 7.744 0 0 1 2.27-3.15c1.025-.858 2.22-1.389 3.56-1.606l10.115-1.605L29.344 0 19.036 1.63c-2.547.398-4.828 1.4-6.759 2.945ZM29.85 36.608c-.639-.519-1.448-.796-2.232-1.026-1.907-.53-3.887-.736-5.866-.748-1.98 0-3.96.217-5.866.748-.785.23-1.593.507-2.233 1.026-1.183 1.05.277 1.968 1.231 2.306 2.185.808 4.55 1.074 6.868 1.086 2.317 0 4.683-.278 6.868-1.086.953-.338 2.414-1.256 1.23-2.306Z"})}),(0,i.jsx)("defs",{children:(0,i.jsx)("clipPath",{id:"a",children:(0,i.jsx)("path",{fill:"#fff",d:"M0 0h40v40H0z"})})})]})])},532812,e=>{"use strict";var i=e.i(391398),t=e.i(776204),a=e.i(620020),d=e.i(358280),s=e.i(203828),r=e.i(191788);e.i(185340);var l=e.i(863750),n=e.i(341849);e.i(144786);var o=e.i(849187),c=e.i(105725),u=e.i(50635),m=e.i(989568);e.i(484484);var p=e.i(994757),h=e.i(979928);e.i(624994);var f=e.i(655650),g=e.i(378481);e.i(615835);var $=e.i(25747);let F={example_deck_clone_toast:l.Wg.DuplicateInspiration,import_google_doc:l.Wg.ImportGoogleDoc,import_google_slides:l.Wg.ImportGoogleSlides,import_docx:l.Wg.ImportDocx,import_pptx:l.Wg.ImportPptx,import_webpage:l.Wg.ImportWebpage,import_pdf:l.Wg.ImportPdf,blank:l.Wg.Blank,template_browser:l.Wg.DuplicateTemplate,get_started_modal:l.Wg.Blank,template_modal_griditem:l.Wg.DuplicateTemplate,template_dashboard_griditem:l.Wg.DuplicateTemplate,template_modal_preview:l.Wg.DuplicateTemplate,template_modal_preview_create_theme:l.Wg.DuplicateTemplate,"slash-new":l.Wg.SlashNew,editor_toolbar_doc_menu_duplicate:l.Wg.DuplicateDoc,dashboard_docs_view_duplicate:l.Wg.DuplicateDoc,dashboard_files_view_duplicate:l.Wg.DuplicateFile,ai_generated:l.Wg.AiGenerated,ai_generated_advanced:l.Wg.AiGenerated,sites_add_page:l.Wg.SitesAddPage,sites_copy_to_site:l.Wg.SitesCopyToSite,sites_duplicate_page:l.Wg.SitesDuplicatePage,editor_y_doc_too_large_duplicate:l.Wg.DuplicateDoc,file_add_page:l.Wg.SitesAddPage,snapshots_drawer_duplicate:l.Wg.DuplicateDoc,workspace_template:l.Wg.DuplicateDoc,standard_template:l.Wg.DuplicateDoc};e.s(["a",0,F,"s",0,()=>{let{user:e,currentWorkspace:l}=(0,$.G)(),I=(0,o.S)("defaultCanvasCards"),v=(0,c.$)()||I,[b,{data:D,loading:T}]=(0,t.f)(u.f),{push:y,replace:S}=(0,s.useRouter)(),w=(0,a.f)();return[(0,r.useCallback)(t=>{if(!e||!e.id)throw console.error("[createFileAndNavigate] No user found"),Error("No user found");let a=e.settings?.needsEditorOnboarding,s=t.source,r=t?.folderId,o=t?.historyFn==="replace"?S:y;if(!l?.id)return void console.error("[createFileAndNavigate] No currentWorkspace found");let c=t.docSettings||h.$.deck_default.docSettings(),u=t.format||"deck",$=t?.document||(a?(0,p.c)(e,{settings:{...c},format:u}):(0,p.j)(e,{settings:{...c},format:u},{canvasCards:v})),I=(0,g.x)($);return console.debug("[createFileAndNavigate] Creating file",{page:$,encodedDocument:I}),b({variables:{input:{workspaceId:l.id,title:t?.title||"",source:F[t.source],initialPage:{initialContent:{ydoc:I,schemaVersion:f.f,editors:[e.id]}},...r?{folderId:r}:{},...t.themeId?{themeId:t.themeId}:{},...void 0!==t.enablePublishing?{enablePublishing:t.enablePublishing}:{}}}}).then(({data:e})=>{let i=e?.createFile;if(!i)throw Error("No file created");let t=i.pages?.[0];if(!t?.id)throw Error("No page created in file");(0,m.y)({doc_id:t.id,source:s,folder:r??null,format:u}),console.debug("[createFileAndNavigate] File and page created. Navigating to Editor",i.id,t.id),o(`/docs/${t.id}${a?`?${n.f}=true`:""}`)}).catch(e=>{console.error("[createFileAndNavigate]",e),w({title:(0,i.jsx)(d.O,{id:"0jT1fA"}),description:e.message,position:"top",status:"error",isClosable:!0,duration:null})})},[b,l?.id,v,y,S,w,e]),{data:D,loading:T}]}])},560787,27268,e=>{"use strict";var i=e.i(391398),t=e.i(428683),a=e.i(996651),d=e.i(579650),s=e.i(843946),r=e.i(191788);e.i(905506);var l=e.i(84723),n=e.i(267158);let o=r.default.lazy(()=>e.A(866756).then(e=>({default:e.default})));e.s(["f",0,o],27268),e.s(["f",0,({label:c,initialValue:u="",updateValue:m,helperText:p,language:h,...f})=>{let[g,$]=(0,r.useState)(u),[F,I]=(0,r.useState)(null),v=(0,r.useRef)(m);v.current=m;let b=(0,r.useRef)(u),D=(0,r.useCallback)(e=>{b.current=e,v.current(e)},[]),T=(0,l.C)(D,100),[y,S]=(0,r.useState)();(0,r.useEffect)(()=>{"css"===h?e.A(720036).then(e=>{S(e.css())}):"html"===h&&e.A(162883).then(e=>{S(e.html())})},[h]);let w=(0,r.useRef)(u);(0,n.f)(()=>{g!==w.current&&(w.current=g,I(null),T(g))},[g,T],[g]),(0,r.useEffect)(()=>()=>{w.current!==b.current&&D(w.current)},[D]);let k=[y].filter(Boolean);return(0,i.jsxs)(a.K,{isInvalid:!!F,children:[(0,i.jsx)(s.f,{children:c}),F&&(0,i.jsx)(d.f,{children:F}),p&&(0,i.jsx)(a.v,{children:p}),(0,i.jsx)(t.f,{border:"1px solid",borderColor:"gray.200",fontSize:"md",position:"relative",children:(0,i.jsx)(r.Suspense,{fallback:(0,i.jsx)("span",{}),children:(0,i.jsx)(o,{value:g,extensions:k,onChange:$,...f})})})]})}],560787)},175425,e=>{"use strict";var i=e.i(191788);e.i(185340);var t=e.i(863750),a=e.i(195305);e.s(["f",0,function(){let e=(0,a.x)(),{data:d,loading:s,error:r,refetch:l}=(0,t.Ka)({variables:{workspaceId:e},skip:!e,fetchPolicy:"cache-and-network"}),[n]=(0,t.fA)();return{sessions:d?.designSessions??[],loading:s,error:r??null,refetch:l,archiveSession:(0,i.useCallback)(async e=>{try{await n({variables:{id:e},refetchQueries:["GetUserSavedMedia","GetWorkspaceSavedMedia","GetWorkspaceMediaLibrary"],update:i=>{i.modify({fields:{designSessions:(i=[],{readField:t})=>i.filter(i=>t("id",i)!==e)}})}})}catch(e){console.error("[useDesignSessions] Failed to archive session:",e)}},[n])}}])},789255,e=>{"use strict";var i=e.i(391398),t=e.i(428683),a=e.i(555145),d=e.i(918228),s=e.i(887527),r=e.i(892194),l=e.i(550530),n=e.i(524473),o=e.i(541075),c=e.i(358280),u=e.i(408122),m=e.i(191788);e.i(144786);var p=e.i(849187),h=e.i(312086),f=e.i(383700),g=e.i(486470),$=e.i(620020),F=e.i(745725),I=e.i(305524),v=e.i(676314),b=e.i(418755),D=e.i(35585);let T=["image/*"];e.s(["f",0,({uploadedUrls:e,onUploaded:y,onRemoved:S,onUploadingChange:w,isDisabled:k=!1,pasteTargetRef:C})=>{let x=(0,p.S)("exportFeedbackScreenshots"),{pending:P,isUploading:_,isFull:E,canUpload:j,addFiles:U,abandonPending:A,removeUploaded:W}=(({uploadedUrls:e,onUploaded:i,onRemoved:t,pasteTargetRef:a})=>{let d=(0,$.f)(),s=(0,b.g)(D.m),[r,l]=(0,m.useState)([]),n=(0,m.useRef)([]),o=(0,m.useCallback)(e=>{n.current=e,l(e)},[]),c=(0,m.useRef)(new Map),p=(0,m.useRef)(new Set),h=(0,m.useRef)(new Map),f=(0,m.useCallback)((e,i,{cancelUpload:t=!0}={})=>{if(p.current.has(e))return!1;p.current.add(e);let a=c.current.get(e);return a&&clearTimeout(a),c.current.delete(e),t&&h.current.get(e)?.cancel(),h.current.delete(e),URL.revokeObjectURL(i),o(n.current.filter(i=>i.id!==e)),!0},[o]),g=(0,m.useCallback)(e=>{let i=n.current.find(i=>i.id===e);i&&f(e,i.previewUrl)},[f]);(0,m.useEffect)(()=>{let e=c.current,i=h.current;return()=>{n.current.forEach(e=>URL.revokeObjectURL(e.previewUrl)),e.forEach(e=>clearTimeout(e)),e.clear(),i.forEach(e=>e.cancel()),i.clear()}},[]);let y=(0,m.useCallback)(e=>{d({id:"feedback-screenshot-error",title:u.X._({id:"n7HGQX"}),description:e,status:"error",position:"top",duration:5e3,isClosable:!0})},[d]),S=(0,m.useCallback)(t=>{if(!s)return;let a=[];for(let e of Array.from(t)){if(!e.type.startsWith("image/")){y(u.X._({id:"wLX-ix"}));continue}if(e.size>0xa00000){y(u.X._({id:"hr_xI2",values:{MAX_SCREENSHOT_MB:10}}));continue}a.push(e)}let d=3-e.length-n.current.length;a.length>d&&y(u.X._({id:"9E671S",values:{MAX_SCREENSHOTS:3}}));let r=a.slice(0,Math.max(d,0)).map(e=>({file:e,id:(0,F.t)(10),previewUrl:URL.createObjectURL(e)}));0!==r.length&&(o([...n.current,...r.map(({id:e,previewUrl:i})=>({id:e,previewUrl:i}))]),r.forEach(({file:e,id:t,previewUrl:a})=>{c.current.set(t,setTimeout(()=>{f(t,a)&&y(u.X._({id:"fuwKpE"}))},12e4));let d=(0,I.uploadFile)(e,s,{onUploadComplete:e=>{f(t,a,{cancelUpload:!1})&&i(e.src)},onUploadFailed:()=>{f(t,a)&&y(u.X._({id:"fuwKpE"}))}});d&&h.current.set(t,d)}))},[s,e.length,y,i,o,f]),{uploadPastedFiles:w}=(0,v.f)({uploadFiles:S,acceptedMimeTypes:T});return(0,m.useEffect)(()=>{let e=a?.current;if(!e)return;let i=e=>{w(e.clipboardData)&&e.preventDefault()};return e.addEventListener("paste",i),()=>e.removeEventListener("paste",i)},[a,w]),{pending:r,isUploading:r.length>0,isFull:e.length+r.length>=3,canUpload:!!s,addFiles:S,abandonPending:g,removeUploaded:t}})({uploadedUrls:e,onUploaded:y,onRemoved:S,pasteTargetRef:x&&!k?C:void 0});(0,m.useEffect)(()=>{w?.(_)},[_,w]);let[B,G]=(0,m.useState)(!1),L=(0,r.W)("gray.200","gray.700"),R=(0,r.W)("gray.300","elevation.6"),N=(0,r.W)("blue.400","blue.300"),M=(0,r.W)("blue.50","blue.900"),O=(0,r.W)("gray.500","titanium.300"),{inputElement:q,onClick:H}=(0,h.f)({handleFilesCallback:U,multiple:!0,accept:T.join(",")}),X=(0,g.f)({uploadFiles:U,acceptedMimeTypes:T,onDragStateChange:G});if(!x||!j)return null;let z=e.length>0||P.length>0;return(0,i.jsxs)(d.f,{spacing:2,w:"100%",children:[(0,i.jsx)(s.f,{fontSize:"sm",fontWeight:"medium",children:(0,i.jsx)(c.O,{id:"VHaRE3"})}),q,z&&(0,i.jsxs)(l.b,{spacing:2,children:[e.map(e=>(0,i.jsx)(l.Z,{children:(0,i.jsx)(f.f,{src:e,alt:u.X._({id:"zZIINu"}),boxSize:14,borderColor:L,isDisabled:k,onRemove:()=>W(e)})},e)),P.map(e=>(0,i.jsx)(l.Z,{children:(0,i.jsx)(f.f,{src:e.previewUrl,boxSize:14,borderColor:L,isLoading:!0,onRemove:()=>A(e.id)})},e.id))]}),!E&&(0,i.jsxs)(a.f,{justify:"center",spacing:2,h:14,px:3,borderWidth:"1px",borderStyle:"dashed",borderColor:B?N:R,borderRadius:"md",bg:B?M:"transparent",cursor:k?"not-allowed":"pointer",opacity:k?.6:1,transition:"all 0.15s ease",_hover:k?void 0:{borderColor:N},onClick:k?void 0:H,...k?{}:X,children:[(0,i.jsx)(t.f,{color:O,fontSize:"sm",children:(0,i.jsx)(o.f,{icon:n.lA})}),(0,i.jsx)(s.f,{fontSize:"xs",color:O,textAlign:"center",children:(0,i.jsx)(c.O,{id:"l4Qy1i",values:{MAX_SCREENSHOTS:3}})})]})]})}],789255)},50635,e=>{"use strict";var i=e.i(159080);let t=i.f`
+  fragment DefaultThemeFontFields on ThemeFont {
+    id
+    name
+    url
+  }
+`;i.f`
+  fragment SourceThemeFields on Theme {
+    id
+    workspaceId
+    name
+    headingFont
+    headingFontWeight
+    bodyFont
+    bodyFontWeight
+    accentColor
+    logoUrl
+    config
+    priority
+    previewUrl
+    archived
+    createdTime
+    updatedTime
+  }
+`;let a=i.f`
+  ${t}
+  fragment DefaultThemeFields on Theme {
+    id
+    workspaceId
+    name
+    headingFont
+    headingFontWeight
+    bodyFont
+    bodyFontWeight
+    accentColor
+    logoUrl
+    config
+    priority
+    previewUrl
+    archived
+    createdTime
+    updatedTime
+    fonts {
+      ... on ThemeFont {
+        ...DefaultThemeFontFields
+      }
+    }
+  }
+`;i.f`
+  ${a}
+  # Mutations whose results are written into the GetThemes list (via
+  # cache.writeQuery) must select every field GetThemes selects — including
+  # createdBy — or Apollo drops the write with "Missing field" errors.
+  fragment ThemeCreatedByFields on Theme {
+    createdBy {
+      id
+      displayName
+      email
+      profileImageUrl
+    }
+  }
+
+  mutation CreateTheme($input: CreateThemeInput!) {
+    createTheme(input: $input) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+      docCount
+    }
+  }
+
+  mutation UpdateTheme($input: UpdateThemeInput!) {
+    updateTheme(input: $input) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+      docCount
+    }
+  }
+
+  mutation MakeThemeStandard($id: ID!, $newId: ID) {
+    makeThemeStandard(id: $id, newId: $newId) {
+      ...DefaultThemeFields
+      docCount
+    }
+  }
+
+  mutation DuplicateTheme($id: ID!) {
+    duplicateTheme(id: $id) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+    }
+  }
+
+  query GetTheme($id: ID) {
+    theme(id: $id) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+    }
+  }
+
+  query GetThemeWithCount($id: ID) {
+    theme(id: $id) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+      docCount
+      siteCount
+    }
+  }
+
+  query GetThemes($workspaceId: ID, $archived: Boolean) {
+    themes(workspaceId: $workspaceId, archived: $archived) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+    }
+  }
+
+  mutation ArchiveTheme($id: ID!) {
+    archiveTheme(id: $id) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+      docCount
+      siteCount
+    }
+  }
+
+  mutation UnarchiveTheme($id: ID!) {
+    unarchiveTheme(id: $id) {
+      ...DefaultThemeFields
+      ...ThemeCreatedByFields
+    }
+  }
+
+  query GetFileThemeData($fileId: ID!) {
+    file(id: $fileId) {
+      id
+      theme {
+        id
+      }
+      fileTheme {
+        ...DefaultThemeFields
+      }
+    }
+  }
+
+  mutation UpdateFileThemeData($input: UpdateFileThemeInput!) {
+    updateFileTheme(input: $input) {
+      id
+      fileTheme {
+        ...DefaultThemeFields
+      }
+      theme {
+        ...DefaultThemeFields
+      }
+    }
+  }
+
+  mutation RestoreThemeFromSnapshot($input: RestoreThemeFromSnapshotInput!) {
+    restoreThemeFromSnapshot(input: $input)
+  }
+`;let d=i.f`
+  fragment DefaultDomainsFields on Domain {
+    id
+    name
+    status
+    builtin
+    createdTime
+    updatedTime
+    setupMethod
+    siteId
+    canonical
+  }
+`;i.f`
+  fragment FileSiteFragment on Site {
+    id
+    workspaceId
+    name
+    domains {
+      ...DefaultDomainsFields
+    }
+    hasCustomDomain
+    currentDeployment {
+      id
+      buildHost
+      deploymentTime
+      siteSettings
+    }
+    createdTime
+    updatedTime
+    previewUrl
+    archived
+    enabled
+    faviconUrl
+    createdBy {
+      email
+      profileImageUrl
+      displayName
+      id
+    }
+    navEnabled
+    navContent
+    gtmContainerId
+    metaPixelId
+  }
+`,i.f`
+  ${a}
+  ${d}
+  fragment SiteFragment on Site {
+    ...FileSiteFragment
+    themeId
+    theme {
+      ...DefaultThemeFields
+    }
+    files {
+      id
+      title
+      workspaceAccess
+      pages {
+        ...MinimalPageFields
+      }
+    }
+  }
+
+  mutation UpdateSite($input: UpdateSiteInput!) {
+    updateSite(input: $input) {
+      id
+      name
+      faviconUrl
+      themeId
+      navEnabled
+      navContent
+      gtmContainerId
+      metaPixelId
+    }
+  }
+
+  mutation AddDomain($input: AddDomainInput!) {
+    addDomain(input: $input) {
+      id
+      domains {
+        id
+        name
+        status
+      }
+    }
+  }
+
+  mutation DeleteDomain($id: ID!) {
+    deleteDomain(id: $id) {
+      id
+    }
+  }
+
+  mutation changeBuiltinDomain($input: ChangeBuiltinDomainInput!) {
+    changeBuiltinDomain(input: $input) {
+      id
+      domains {
+        name
+        status
+        builtin
+      }
+    }
+  }
+
+  query GetSite($id: ID!) {
+    site(id: $id) {
+      ...SiteFragment
+    }
+  }
+
+  # When moving to files, we only care about a subset of the fields from the
+  # site query.
+  query GetSiteForFile($id: ID!) {
+    site(id: $id) {
+      ...FileSiteFragment
+    }
+  }
+
+  query GetDomains($workspaceId: ID!, $name: String!) {
+    domains(workspaceId: $workspaceId, name: $name) {
+      ...DefaultDomainsFields
+      siteId
+      siteName
+      siteArchived
+    }
+  }
+
+  query GetPublishedPageWithSnapshot($id: ID!) {
+    publishedPage(id: $id) {
+      id
+      title
+      file {
+        id
+        title
+        archived
+        disabled
+        workspace {
+          products
+          id
+          # NB: Need this so that useCan works properly.
+          __typename
+        }
+        theme {
+          ...DefaultThemeFields
+        }
+        site {
+          id
+          hasCustomDomain
+          faviconUrl
+          navEnabled
+          navContent
+          gtmContainerId
+          metaPixelId
+        }
+        createdTime
+        updatedTime
+        editedTime
+        publishedTime
+        savedTime
+        links {
+          url
+          nodeType
+          status
+        }
+        mainPageId
+        pages {
+          id
+          title
+          description
+          archived
+          path
+          offline
+          createdTime
+          updatedTime
+          editedTime
+          previewUrl
+          pageOrder
+          currentSnapshotId
+          publishedSnapshotId
+          publishedTime
+        }
+        isTemplate
+        source
+        __typename
+      }
+      editors {
+        user {
+          id
+          firstName
+          lastName
+          displayName
+          profileImageUrl
+          __typename
+        }
+        docId
+        lastEdited
+        __typename
+      }
+      publishedSnapshot {
+        id
+        content
+      }
+      previewUrl
+      editedTime
+      canonicalUrl
+      links {
+        url
+        nodeType
+        status
+      }
+      searchEngineIndexingAllowed
+      __typename
+    }
+  }
+
+  mutation PublishSite($id: ID!) {
+    publishSite(id: $id) {
+      ...SiteFragment
+    }
+  }
+
+  mutation UnpublishSite($id: ID!) {
+    unpublishSite(id: $id) {
+      ...SiteFragment
+    }
+  }
+
+  mutation PublishDoc($id: ID!) {
+    publishDoc(id: $id) {
+      id
+      publishedTime
+      publishedSnapshot {
+        id
+      }
+    }
+  }
+
+  mutation VerifyDomain($id: ID!) {
+    verifyDomain(id: $id) {
+      id
+      domains {
+        id
+        name
+        status
+      }
+    }
+  }
+
+  mutation TransferDomain($id: ID!, $siteId: ID!) {
+    transferDomain(id: $id, siteId: $siteId) {
+      id
+      siteId
+      name
+    }
+  }
+
+  mutation MakeCanonicalDomain($id: ID!) {
+    makeCanonicalDomain(id: $id) {
+      id
+      domains {
+        ...DefaultDomainsFields
+      }
+    }
+  }
+
+  query CheckDomain($name: String!) {
+    checkDomain(name: $name) {
+      ok
+      dns {
+        status
+        errors {
+          code
+          message
+        }
+      }
+      ssl {
+        ok
+        errors {
+          code
+          message
+        }
+      }
+      http {
+        ok
+        errors {
+          code
+          message
+        }
+      }
+      actions {
+        code
+        data
+      }
+    }
+  }
+`,i.f`
+  fragment DocEditorsFields on DocEditor {
+    user {
+      id
+      displayName
+      email
+      profileImageUrl
+      deleted
+    }
+    lastEdited
+  }
+`;let s=i.f`
+  fragment FileCollaboratorFields on FileCollaborator {
+    user {
+      id
+      displayName
+      email
+      profileImageUrl
+    }
+    fileId
+    permission
+    guest
+    accessLinkId
+  }
+
+  fragment FileInvitationsFields on FileInvitation {
+    id
+    fileId
+    email
+    permission
+  }
+`;i.f`
+  fragment MinimalPageFields on Page {
+    id
+    title
+    description
+    archived
+    path
+    offline
+    createdTime
+    updatedTime
+    editedTime
+    titleEdited
+    pathEdited
+    previewUrl
+    pageOrder
+    currentSnapshotId
+    publishedSnapshotId
+    publishedTime
+  }
+`,i.f`
+  fragment PageFields on Doc {
+    id
+    title
+    titleEdited
+    titleCard {
+      id
+      previewUrl
+    }
+    path
+    previewUrl
+    archived
+    disabled
+    createdTime
+    updatedTime
+    editedTime
+    savedTime
+    currentSnapshotId
+    publishedSnapshotId
+    publishedSnapshot {
+      content
+    }
+    publishedTime
+    source
+    canvasCards
+    generationTemplateDocId
+    comments {
+      ...CommentFields # defined in sections/docs/graphql.ts
+    }
+    reactions {
+      ...ReactionFields # defined in sections/docs/graphql.ts
+    }
+    links {
+      url
+      status
+    }
+    editors {
+      ...DocEditorsFields
+    }
+    createdBy {
+      firstName
+      displayName
+      id
+      email
+      profileImageUrl
+      deleted
+    }
+    docGenerateInput {
+      id
+      status
+      settings
+      docGeneration {
+        id
+        generationType
+      }
+    }
+  }
+`,i.f`
+  fragment PageSubscriptionFields on DocSubscription {
+    id
+    title
+    titleEdited
+    titleCard {
+      id
+      previewUrl
+    }
+    archived
+    updatedTime
+    editedTime
+    savedTime
+    publishedTime
+    editors {
+      ...DocEditorsFields
+    }
+  }
+`,i.f`
+  fragment AccessLinkFields on AccessLink {
+    id
+    docId
+    fileId
+    type
+    permission
+    token
+    url
+  }
+`,i.f`
+  fragment FileGrantFields on Grant {
+    subjectType
+    subjectId
+    permission
+    inherited
+    user {
+      displayName
+      email
+      profileImageUrl
+    }
+    group {
+      id
+      name
+      memberCount
+    }
+    folder {
+      id
+      name
+    }
+  }
+`,i.f`
+  fragment FileFields on File {
+    id
+    canvasCards
+    title
+    titleEdited
+    createdByHarnessSessionId
+    previewUrl
+    archived
+    disabled
+    theme {
+      ...DefaultThemeFields
+    }
+    sourceTheme {
+      ...SourceThemeFields
+    }
+    createdBy {
+      id
+      displayName
+      email
+      deleted
+    }
+    accessLinks {
+      ...AccessLinkFields
+    }
+    collaborators {
+      ...FileCollaboratorFields
+    }
+    invitations {
+      ...FileInvitationsFields
+    }
+    fileUser {
+      id
+      fileId
+      lastViewed
+      lastEdited
+      favorited
+      editCount
+    }
+    site {
+      id
+      enabled
+      archived
+      hasCustomDomain
+      currentDeployment {
+        id
+        deploymentTime
+      }
+      domains {
+        ...DefaultDomainsFields
+      }
+    }
+    createdTime
+    updatedTime
+    editedTime
+    publishedTime
+    savedTime
+    mainPageId
+    workspace {
+      id
+      name
+      products
+      createdTime
+      gammaDataProcessingRole
+      workspaceSettings {
+        workspaceId
+        sites
+        accessLinks
+        searchIndexing
+        workspaceGuestInvites
+        workspaceSharing
+      }
+    }
+    workspaceAccess
+    visibility
+    permissions {
+      ...FileGrantFields
+    }
+    accessRequest {
+      ...MyAccessRequestFields
+    }
+    pages {
+      ...MinimalPageFields
+    }
+    searchEngineIndexingEnabled
+    isTemplate
+    contentType
+  }
+`;let r=i.f`
+  query GetFileVisibility($id: ID!) {
+    file(id: $id) {
+      id
+      visibility
+    }
+  }
+`;i.f`
+  query GetFilePassword($id: ID!) {
+    getFilePassword(id: $id)
+  }
+`,i.f`
+  query GetFileFolder($id: ID!) {
+    file(id: $id) {
+      id
+      hasFolder
+      folder {
+        id
+        name
+        myPermission
+      }
+    }
+  }
+`,i.f`
+  query GetFilePageIds($id: ID!) {
+    file(id: $id) {
+      id
+      archived
+      pages {
+        id
+        archived
+      }
+    }
+  }
+`,i.f`
+  subscription SubscribeToFile($id: ID!) {
+    file(id: $id) {
+      ... on FileSubscription {
+        file {
+          ...FileFields
+        }
+      }
+    }
+  }
+`,i.f`
+  mutation archiveFile($id: ID!) {
+    archiveFile(id: $id) {
+      id
+      archived
+    }
+  }
+`,i.f`
+  mutation updateFileAccessLinks($id: ID!, $access: Permission) {
+    updateFile(input: { id: $id, accessLinks: [{ permission: $access }] }) {
+      id
+      # The server recomputes this from the new ACL. Unselected, a card that
+      # badges the file from it keeps the old value until its next fetch.
+      visibility
+      accessLinks {
+        ...AccessLinkFields
+      }
+    }
+  }
+`,i.f`
+  mutation updateFileWorkspaceAccess($id: ID!, $access: Permission) {
+    updateFile(input: { id: $id, workspaceAccess: $access }) {
+      id
+      workspaceAccess
+      visibility
+    }
+  }
+`,i.f`
+  mutation unarchiveFile($id: ID!) {
+    unarchiveFile(id: $id) {
+      id
+      archived
+    }
+  }
+`,i.f`
+  mutation archiveFiles($ids: [ID!]!) {
+    archiveFiles(ids: $ids)
+  }
+`,i.f`
+  mutation unarchiveFiles($ids: [ID!]!) {
+    unarchiveFiles(ids: $ids)
+  }
+`,i.f`
+  mutation UpdateFileTitle($id: ID!, $title: String!, $titleEdited: Boolean) {
+    updateFile(input: { id: $id, title: $title, titleEdited: $titleEdited }) {
+      id
+      title
+      titleEdited
+    }
+  }
+`,i.f`
+  mutation UpdateFileTheme($id: ID!, $themeId: ID) {
+    updateFile(input: { id: $id, themeId: $themeId }) {
+      id
+      theme {
+        ...DefaultThemeFields
+      }
+    }
+  }
+`,i.f`
+  mutation UpdateFileMainPage($fileId: ID!, $pageId: ID!) {
+    updateFile(input: { id: $fileId, mainPageId: $pageId }) {
+      id
+      mainPageId
+      pages {
+        ...MinimalPageFields
+      }
+    }
+  }
+`,i.f`
+  mutation UpdatePageTitle(
+    $id: ID!
+    $title: String!
+    $titleEdited: Boolean
+    $path: String
+    $pathEdited: Boolean
+  ) {
+    updatePage(
+      input: {
+        id: $id
+        title: $title
+        titleEdited: $titleEdited
+        path: $path
+        pathEdited: $pathEdited
+      }
+    ) {
+      id
+      title
+      path
+      titleEdited
+      pathEdited
+      updatedTime
+    }
+  }
+`,i.f`
+  mutation UpdatePageDescription($id: ID!, $description: String!) {
+    updatePage(input: { id: $id, description: $description }) {
+      id
+      description
+      updatedTime
+    }
+  }
+`,i.f`
+  mutation UpdatePagePath($id: ID!, $path: String, $pathEdited: Boolean) {
+    updatePage(input: { id: $id, path: $path, pathEdited: $pathEdited }) {
+      id
+      title
+      path
+      titleEdited
+      pathEdited
+      updatedTime
+    }
+  }
+`,i.f`
+  mutation UpdatePageOffline($id: ID!, $offline: Boolean!) {
+    updatePage(input: { id: $id, offline: $offline }) {
+      id
+      offline
+      updatedTime
+    }
+  }
+`,i.f`
+  mutation archivePage($id: ID!) {
+    archivePage(id: $id) {
+      id
+      archived
+    }
+  }
+`,i.f`
+  mutation unarchivePage($id: ID!) {
+    unarchivePage(id: $id) {
+      id
+      archived
+    }
+  }
+`,i.f`
+  mutation DeletePage($id: ID!) {
+    deletePage(id: $id)
+  }
+`,i.f`
+  mutation SetFilePassword($id: ID!, $password: String!) {
+    setFilePassword(id: $id, password: $password) {
+      id
+      visibility
+      accessLinks {
+        ...AccessLinkFields
+      }
+    }
+  }
+`,i.f`
+  mutation RemoveFilePassword($id: ID!) {
+    removeFilePassword(id: $id) {
+      id
+      visibility
+      accessLinks {
+        ...AccessLinkFields
+      }
+    }
+  }
+`,i.f`
+  mutation UpdateFileSearchIndexing($id: ID!, $enabled: Boolean!) {
+    updateSearchEngineIndexing(fileId: $id, enable: $enabled) {
+      id
+      searchEngineIndexingEnabled
+    }
+  }
+`,i.f`
+  ${s}
+  mutation AddFileCollaborators(
+    $id: ID!
+    $collaborators: [FileCollaboratorInput!]!
+  ) {
+    addFileCollaborators(fileId: $id, collaborators: $collaborators) {
+      id
+      visibility
+      collaborators {
+        ...FileCollaboratorFields
+      }
+      invitations {
+        ...FileInvitationsFields
+      }
+    }
+  }
+`,i.f`
+  ${s}
+  mutation RemoveFileCollaborators(
+    $id: ID!
+    $collaborators: [FileCollaboratorRemovalInput!]!
+  ) {
+    removeFileCollaborators(fileId: $id, collaborators: $collaborators) {
+      id
+      visibility
+      collaborators {
+        ...FileCollaboratorFields
+      }
+      invitations {
+        ...FileInvitationsFields
+      }
+    }
+  }
+`,i.f`
+  mutation ModifyFilePermissions($input: ModifyFilePermissionsInput!) {
+    modifyFilePermissions(input: $input) {
+      id
+      visibility
+      permissions {
+        ...FileGrantFields
+      }
+    }
+  }
+`,i.f`
+  mutation EnablePublishing($id: ID!) {
+    enablePublishing(id: $id) {
+      id
+      site {
+        id
+        enabled
+      }
+    }
+  }
+`,i.f`
+  mutation DisablePublishing($id: ID!) {
+    disablePublishing(id: $id) {
+      id
+      site {
+        id
+        enabled
+      }
+    }
+  }
+`,i.f`
+  mutation DuplicatePage($duplicatePageInput: DuplicatePageInput!) {
+    duplicatePage(input: $duplicatePageInput) {
+      id
+      title
+    }
+  }
+`,i.f`
+  mutation AddFileCollaboratorByAccessLink($fileId: ID!) {
+    addFileCollaboratorByAccessLink(fileId: $fileId) {
+      id
+      collaborators {
+        ...FileCollaboratorFields
+      }
+    }
+  }
+`,i.f`
+  mutation FavoriteFile($id: ID!) {
+    favoriteFile(id: $id) {
+      id
+      fileId
+      lastViewed
+      lastEdited
+      favorited
+    }
+  }
+`,i.f`
+  mutation UnfavoriteFile($id: ID!) {
+    unfavoriteFile(id: $id) {
+      id
+      fileId
+      lastViewed
+      lastEdited
+      favorited
+    }
+  }
+`,i.f`
+  mutation DeleteFile($id: ID!) {
+    deleteFile(id: $id)
+  }
+`,i.f`
+  mutation deleteFiles($ids: [ID!]!) {
+    deleteFiles(ids: $ids)
+  }
+`,i.f`
+  fragment FileUserUpdate on File {
+    fileUser {
+      id
+      fileId
+      lastViewed
+      lastEdited
+      favorited
+    }
+  }
+`,i.f`
+  query GetCurrentPageForRemix($id: ID!) {
+    currentPage(id: $id) {
+      file {
+        id
+        title
+        previewUrl
+        isTemplate
+      }
+      page {
+        id
+        canvasCards
+      }
+    }
+  }
+`,i.f`
+  query GetDocCanvasCards($id: ID!) {
+    doc(id: $id) {
+      id
+      canvasCards
+    }
+  }
+`;let l=i.f`
+  mutation CreateFile($input: CreateFileInput!) {
+    createFile(input: $input) {
+      id
+      pages {
+        id
+      }
+    }
+  }
+`,n=i.f`
+  ${d}
+  fragment HomeFileFields on File {
+    id
+    canvasCards
+    title
+    mainPageId
+    archived
+    isTemplate
+    createdTime
+    updatedTime
+    editedTime
+    source
+    contentType
+    format
+    cardDimensions
+    previewUrl
+    createdBy {
+      profileImageUrl
+      displayName
+      id
+      email
+      deleted
+    }
+    fileUser {
+      id
+      lastViewed
+      lastEdited
+      favorited
+    }
+    workspace {
+      id
+      name
+      createdTime
+      gammaDataProcessingRole
+      workspaceSettings {
+        workspaceId
+        sites
+        accessLinks
+        searchIndexing
+        workspaceGuestInvites
+        workspaceSharing
+      }
+    }
+    workspaceAccess
+    myPermission
+    visibility
+    hasFolder
+    folder {
+      id
+      name
+      myPermission
+    }
+    site {
+      id
+      name
+      archived
+      enabled
+      faviconUrl
+      hasCustomDomain
+      previewUrl
+      domains {
+        ...DefaultDomainsFields
+      }
+    }
+    collaborators {
+      permission
+      fileId
+      user {
+        id
+      }
+    }
+    accessLinks {
+      ...AccessLinkFields
+    }
+  }
+`;i.f`
+  mutation DuplicateFile($duplicateFileInput: DuplicateFileInput!) {
+    duplicateFile(input: $duplicateFileInput) {
+      # The dashboard splices the copy straight into its cached list, and a
+      # row missing any field that list selects makes the whole list read as
+      # incomplete. Returning the list's own fragment means the cache gets the
+      # server's state rather than values inferred from the source.
+      ...HomeFileFields
+    }
+  }
+  ${n}
+`,i.f`
+  ${n}
+  query GetFiles(
+    $first: Int
+    $after: String
+    $workspaceId: ID
+    $createdBy: ID
+    $archived: Boolean
+    $sortBy: FileSortOrder
+    $isPrivate: Boolean
+    $isApiGenerated: Boolean
+    $isSite: Boolean
+    $isTemplate: Boolean
+  ) {
+    files(
+      first: $first
+      after: $after
+      workspaceId: $workspaceId
+      createdBy: $createdBy
+      archived: $archived
+      sortBy: $sortBy
+      isPrivate: $isPrivate
+      isApiGenerated: $isApiGenerated
+      isSite: $isSite
+      isTemplate: $isTemplate
+    ) {
+      edges {
+        node {
+          ...HomeFileFields
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+`,i.f`
+  ${n}
+  query GetSharedFiles(
+    $first: Int
+    $after: String
+    $archived: Boolean
+    $sortBy: FileSortOrder
+  ) {
+    sharedFiles(
+      first: $first
+      after: $after
+      archived: $archived
+      sortBy: $sortBy
+    ) {
+      edges {
+        node {
+          ...HomeFileFields
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+`,i.f`
+  ${n}
+  query GetSharedWithYouFiles($workspaceId: ID!, $first: Int, $after: String) {
+    sharedWithYouFiles(
+      workspaceId: $workspaceId
+      first: $first
+      after: $after
+    ) {
+      edges {
+        node {
+          ...HomeFileFields
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+`,i.f`
+  query GetFilePermission($id: ID!) {
+    filePermission(id: $id) {
+      fileId
+      permission
+    }
+  }
+`,i.f`
+  ${n}
+  query GetFile($id: ID!) {
+    file(id: $id) {
+      ...HomeFileFields
+      titleEdited
+      disabled
+      permissions {
+        ...FileGrantFields
+      }
+      savedTime
+      publishedTime
+      searchEngineIndexingEnabled
+      isTemplate
+      mainPageId
+      pages {
+        ...MinimalPageFields
+      }
+      theme {
+        ...DefaultThemeFields
+      }
+      invitations {
+        ...FileInvitationsFields
+      }
+      accessLinks {
+        ...AccessLinkFields
+      }
+      collaborators {
+        ...FileCollaboratorFields
+      }
+      workspace {
+        id
+        name
+        products
+        createdTime
+        workspaceSettings {
+          workspaceId
+          sites
+          accessLinks
+          searchIndexing
+          workspaceGuestInvites
+        }
+      }
+    }
+  }
+`,i.f`
+  query GetPage($id: ID!, $password: String) {
+    currentPage(id: $id, password: $password) {
+      file {
+        id
+      }
+      page {
+        ...PageFields
+      }
+    }
+  }
+`,i.f`
+  query GetCurrentPage($id: ID!, $password: String) {
+    currentPage(id: $id, password: $password) {
+      slackEmbedViewerId
+      file {
+        ...FileFields
+      }
+      page {
+        ...PageFields
+      }
+    }
+  }
+`,i.f`
+  mutation ReorderPages($fileId: ID!, $pages: [ID!]!, $bounds: OrderBounds!) {
+    reorderPages(input: { fileId: $fileId, pages: $pages, bounds: $bounds }) {
+      id
+      __typename
+      pages {
+        id
+        pageOrder
+      }
+    }
+  }
+`,i.f`
+  subscription SubscribeToPage($id: ID!) {
+    doc(id: $id) {
+      ... on DocSubscription {
+        ...PageSubscriptionFields
+      }
+
+      ... on DocCommentsSubscription {
+        id
+        comments {
+          ...CommentFields
+        }
+      }
+      ... on DocReactionsSubscription {
+        id
+        reactions {
+          ...ReactionFields
+        }
+      }
+      ... on DocLinksSubscription {
+        id
+        links {
+          url
+          status
+        }
+      }
+    }
+  }
+`,e.s(["f",0,l,"I",0,r],50635)},566345,e=>{"use strict";e.s(["f",0,"gamma5OptIn"])},812056,187150,e=>{"use strict";var i=e.i(391398),t=e.i(227909),a=e.i(29215),d=e.i(969641),s=e.i(996651),r=e.i(579650),l=e.i(843946),n=e.i(555145),o=e.i(865639),c=e.i(965837),u=e.i(81167),m=e.i(774314),p=e.i(864860),h=e.i(892194);e.i(828525);var f=e.i(315261),g=e.i(358280);let $=e=>e>="0"&&e<="9"||e>="A"&&e<="Z",F=e=>"string"==typeof e&&e.length>0&&e.length<=10&&[...e].every($);e.s(["H",0,({gtmContainerId:e,setGtmContainerId:I})=>{let v=(0,h.W)("green.600","green.300"),b=F(e),D=!!e&&!b;return(0,i.jsxs)(s.K,{isInvalid:D,children:[(0,i.jsx)(n.f,{justifyContent:"center",children:(0,i.jsxs)(l.f,{display:"flex",flex:"1",me:"0",children:[(0,i.jsx)(g.O,{id:"d4WWfP"}),(0,i.jsx)(f.f,{ms:2,label:(0,i.jsx)(g.O,{id:"gmEwbH"})}),(0,i.jsx)(p.f,{}),(0,i.jsx)(d.f,{"aria-label":"Learn more about Google Tag Manager",as:"a",variant:"link",href:"https://support.google.com/tagmanager/answer/6103696?hl=en",target:"_blank",size:"sm",rightIcon:(0,i.jsx)(a.f,{}),colorScheme:"gray",children:(0,i.jsx)(g.O,{id:"zwWKhA"})})]})}),(0,i.jsxs)(c.H,{children:[(0,i.jsx)(u.u,{pe:3,children:"GTM -"}),(0,i.jsx)(o.f,{placeholder:"XXXXXX",value:e||"",onChange:e=>{I([...e.currentTarget.value.toUpperCase()].filter($).join("").slice(0,10))}}),b&&(0,i.jsx)(m.w,{pointerEvents:"none",color:v,"data-testid":"gtm-container-id-accepted",children:(0,i.jsx)(t.f,{"aria-label":"Google Tag Manager ID accepted"})})]}),(0,i.jsx)(r.f,{children:(0,i.jsx)(g.O,{id:"1LVY2b"})})]})},"_",0,F],812056);let I=e=>e>="0"&&e<="9",v=e=>"string"==typeof e&&e.length>0&&e.length<=20&&[...e].every(I);e.s(["$",0,({pixelId:e,setPixelId:u})=>{let $=(0,h.W)("green.600","green.300"),F=v(e),b=!!e&&!F;return(0,i.jsxs)(s.K,{isInvalid:b,children:[(0,i.jsx)(n.f,{justifyContent:"center",children:(0,i.jsxs)(l.f,{display:"flex",flex:"1",me:"0",children:[(0,i.jsx)(g.O,{id:"163jQp"}),(0,i.jsx)(f.f,{ms:2,label:(0,i.jsx)(g.O,{id:"2ddQRA",components:{0:(0,i.jsx)("span",{"aria-label":"arrow-right",role:"img"})}})}),(0,i.jsx)(p.f,{}),(0,i.jsx)(d.f,{"aria-label":"Learn more about the Meta Pixel",as:"a",variant:"link",href:"https://developers.facebook.com/docs/meta-pixel/get-started",target:"_blank",size:"sm",rightIcon:(0,i.jsx)(a.f,{}),colorScheme:"gray",children:(0,i.jsx)(g.O,{id:"zwWKhA"})})]})}),(0,i.jsxs)(c.H,{children:[(0,i.jsx)(o.f,{ps:4,placeholder:"12345*****67890",value:e||"",onChange:e=>{u([...e.currentTarget.value].filter(I).join("").slice(0,20))}}),F&&(0,i.jsx)(m.w,{pointerEvents:"none",color:$,"data-testid":"meta-pixel-id-accepted",children:(0,i.jsx)(t.f,{"aria-label":"Meta Pixel ID accepted"})})]}),(0,i.jsx)(r.f,{children:(0,i.jsx)(g.O,{id:"3VBIeE"})})]})},"Q",0,v],187150)},72030,e=>{"use strict";var i=e.i(105725),t=e.i(979928);e.s(["f",0,()=>{let e=(0,i.$)();return{getStyleTemplateKeys:i=>e&&"deck"===i.formatType?t.T:i.styleTemplates,getStyleTemplateLabel:i=>{let a=t.$[i];return e&&a.gamma5Label?a.gamma5Label():a.label()}}}])},664e3,e=>{"use strict";var i=e.i(191788),t=e.i(89699);e.s(["f",0,function(e,a){let[d,s]=(0,i.useState)(()=>{try{let i=t.k.getItem(e);if(null===i)return a;return JSON.parse(i)}catch(e){return console.error("[useSessionStorage.getItem] Error getting sessionStorage item",e),a}});return[d,(0,i.useCallback)(i=>{try{t.k.setItem(e,JSON.stringify(i)),s(i)}catch(e){console.error("[useSessionStorage.setItem] Error setting sessionStorage item",e)}},[e])]}])},656708,e=>{"use strict";var i=e.i(877562);e.s(["f",()=>i.s])}]);
+
+//# debugId=4799730c-1ac6-2d03-63da-b48e2b186738
